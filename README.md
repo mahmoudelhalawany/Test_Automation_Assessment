@@ -1,4 +1,29 @@
 # Test Automation Assessment
+## Repository Structure
+
+```plaintext
+Test_Automation_Assessment/
+│
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── org/example
+│   │           ├── CheckThirdResultPage.java
+│   │           ├── DynamicLoadingPage.java
+│   │           ├── UploadingFilePage.java
+
+│   ├── test/
+│   │   └── java/
+│   │       └── com/Internship_API_Tests
+│   │       |   ├── GetRandomCatFact.java
+│   │       └── com/Internship_UI_Tests
+│   │           ├── CheckThirdResultTest.java
+│   │           ├── DynamicLoadingTest.java
+│   │           ├── UploadingFileTest.java
+│
+├── pom.xml
+├── README.md
+
 
 ## Overview
 This repository contains automated tests for evaluating the functionality and reliability of a web application. The tests are designed to ensure the application meets its specifications and functions correctly under various scenarios.
